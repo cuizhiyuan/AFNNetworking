@@ -1,0 +1,37 @@
+{
+  "name": "AFNNetworking",
+  "version": "3.2.0",
+  "summary": "A networking framework.",
+  "description": "A delightful networking framework for iOS, macOS, watchOS, and tvOS. http://afnetworking.com",
+  "homepage": "https://github.com/cuizhiyuan/AFNNetworking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cuizhiyuan": "554561128@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cuizhiyuan/AFNNetworking.git",
+    "tag": "3.2.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AFNNetworking/Classes/**/*",
+  "resource_bundles": {
+    "AFNNetworking": [
+      "AFNNetworking/KKLaunchAd.framework/*.bundle"
+    ]
+  },
+  "public_header_files": "AFNNetworking/Classes/AFNNetworking.h",
+  "vendored_frameworks": "KKLaunchAd/*.{framework}",
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "SVProgressHUD": [
+
+    ]
+  }
+}

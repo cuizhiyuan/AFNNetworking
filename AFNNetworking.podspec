@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFNNetworking'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of AFNNetworking.'
+  s.version          = '3.2.0'
+  s.summary          = 'A networking framework.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,25 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  A delightful networking framework for iOS, macOS, watchOS, and tvOS. http://afnetworking.com
                        DESC
 
-  s.homepage         = 'https://github.com/554561128@qq.com/AFNNetworking'
+  s.homepage         = 'https://github.com/cuizhiyuan/AFNNetworking'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '554561128@qq.com' => 'andy.cui@lesso.com' }
-  s.source           = { :git => 'https://github.com/554561128@qq.com/AFNNetworking.git', :tag => s.version.to_s }
+  s.author           = { 'cuizhiyuan' => '554561128@qq.com' }
+  s.source           = { :git => 'https://github.com/cuizhiyuan/AFNNetworking.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AFNNetworking/Classes/**/*'
+  s.resource_bundles = {
+      'AFNNetworking' => ['AFNNetworking/KKLaunchAd.framework/*.bundle']
+  }
   
-  # s.resource_bundles = {
-  #   'AFNNetworking' => ['AFNNetworking/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'AFNNetworking/Classes/AFNNetworking.h'
+  s.vendored_frameworks = 'KKLaunchAd/*.{framework}'
+  s.dependency 'SDWebImage'
+  s.dependency 'SVProgressHUD'
 end
