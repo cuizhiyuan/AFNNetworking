@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AFNNetworking_Tests' do
+  pod 'AFNNetworking', :path => '../'
+  
+  
+end
