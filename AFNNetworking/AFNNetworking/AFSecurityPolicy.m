@@ -252,6 +252,9 @@ static NSArray * AFPublicKeyTrustChainForServerTrust(SecTrustRef serverTrust) {
     }
 
     switch (self.SSLPinningMode) {
+        case AFSSLPinningModeNone:
+        default:
+            return NO;
         case AFSSLPinningModeCertificate: {
             NSMutableArray *pinnedCertificates = [NSMutableArray array];
             for (NSData *certificateData in self.pinnedCertificates) {
@@ -287,9 +290,6 @@ static NSArray * AFPublicKeyTrustChainForServerTrust(SecTrustRef serverTrust) {
             }
             return trustedPublicKeyCount > 0;
         }
-            
-        default:
-            return NO;
     }
     
     return NO;
