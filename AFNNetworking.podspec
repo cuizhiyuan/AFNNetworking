@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFNNetworking'
-  s.version          = '3.2.3'
+  s.version          = '3.2.4'
   s.summary          = 'A networking framework.'
 
 # This description is used to generate tags and improve search results.
@@ -29,9 +29,9 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
-
+  s.user_target_xcconfig = { 'CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES' => 'YES' }
   s.public_header_files = 'AFNNetworking/AFNNetworking/AFNNetworking.h'
-  s.source_files = 'AFNNetworking/AFNNetworking/*','AFNNetworking/UIKit+AFNNetworking/*'
+  s.source_files = 'AFNNetworking/AFNNetworking/**','AFNNetworking/UIKit+AFNNetworking/**'
   s.resource_bundles = {
       'AFNNetworking' => ['AFNNetworking/KKLaunchAd.framework/*.bundle']
   }
