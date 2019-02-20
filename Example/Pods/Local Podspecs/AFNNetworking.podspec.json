@@ -1,6 +1,6 @@
 {
   "name": "AFNNetworking",
-  "version": "3.2.7",
+  "version": "3.2.8",
   "summary": "A networking framework.",
   "description": "A delightful networking framework for iOS, macOS, watchOS, and tvOS. http://afnetworking.com",
   "homepage": "https://github.com/cuizhiyuan/AFNNetworking",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cuizhiyuan/AFNNetworking.git",
-    "tag": "3.2.7"
+    "tag": "3.2.8"
   },
   "requires_arc": true,
   "platforms": {
@@ -22,11 +22,13 @@
   "user_target_xcconfig": {
     "CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES": "YES"
   },
-  "public_header_files": "AFNNetworking/AFNNetworking/*.h",
+  "public_header_files": [
+    "AFNNetworking/AFNNetworking/*.h",
+    "AFNNetworking/KKLaunchAd.framework/Headers/**"
+  ],
   "source_files": [
     "AFNNetworking/AFNNetworking/**",
-    "AFNNetworking/UIKit+AFNNetworking/**",
-    "AFNNetworking/KKLaunchAd.framework/Headers/**"
+    "AFNNetworking/UIKit+AFNNetworking/**"
   ],
   "resource_bundles": {
     "AFNNetworking": [
