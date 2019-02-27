@@ -29,4 +29,4 @@
 #import "AFNetworkReachabilityManager.h"
 #import "AFURLSessionManager.h"
 #import "AFHTTPSessionManager.h"
-#import <AFNNetworkingManager/AFNNetworkingManager.h>
+#import "AFNNetworking/AFNNetworkingManager.h"

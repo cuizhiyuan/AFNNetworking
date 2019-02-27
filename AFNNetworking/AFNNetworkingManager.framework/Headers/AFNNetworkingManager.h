@@ -15,6 +15,6 @@ FOUNDATION_EXPORT double AFNNetworkingManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char AFNNetworkingManagerVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AFNNetworkingManager/PublicHeader.h>
-#import <AFNNetworkingManager/AFNNetworkingManager.h>
+#import <AFNNetworkingManager.h>
 
 
