@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFNNetworking'
-  s.version          = '3.2.10'
+  s.version          = '3.2.11'
   s.summary          = 'A networking framework.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'AFNNetworking/AFNNetworking/*.h','AFNNetworking/KKLaunchAd.framework/Headers/**'
   s.source_files = 'AFNNetworking/AFNNetworking/**','AFNNetworking/UIKit+AFNNetworking/**'
   s.resource_bundles = {
-      'AFNNetworking' => ['AFNNetworking/KKLaunchAd.framework/*.bundle']
+      'AFNNetworking' => ['AFNNetworking/AFNNetworkingManager.framework/*.bundle']
   }
   
   s.vendored_frameworks = 'AFNNetworking/*.{framework}'
