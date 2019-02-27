@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFNNetworking'
-  s.version          = '3.2.9'
+  s.version          = '3.2.10'
   s.summary          = 'A networking framework.'
 
 # This description is used to generate tags and improve search results.
