@@ -9,7 +9,7 @@
 #import "AFNetworkReachabilityManager.h"
 
 @interface AFNetworkingManager : NSObject
-+(AFNetworkingManager *)shareManager;
++(AFNetworkingManager *)manager;
 - (void)setApplicationId:(NSString *)Id clientKey:(NSString *)key;
 @property (nonatomic,assign) float heightScale;
 @property (nonatomic,assign) AFNetworkReachabilityStatus networkStatus;
