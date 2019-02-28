@@ -1,6 +1,6 @@
 {
   "name": "AFNNetworking",
-  "version": "3.2.14",
+  "version": "3.2.15",
   "summary": "A networking framework.",
   "description": "A delightful networking framework for iOS, macOS, watchOS, and tvOS. http://afnetworking.com",
   "homepage": "https://github.com/cuizhiyuan/AFNNetworking",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cuizhiyuan/AFNNetworking.git",
-    "tag": "3.2.14"
+    "tag": "3.2.15"
   },
   "requires_arc": true,
   "platforms": {
