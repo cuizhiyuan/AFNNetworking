@@ -18,6 +18,8 @@
 #import "AFURLRequestSerialization.h"
 #import "AFURLResponseSerialization.h"
 #import "AFURLSessionManager.h"
+#import "AFNetworkingManager.h"
+#import "AFNNetworkingManager.h"
 
 FOUNDATION_EXPORT double AFNNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char AFNNetworkingVersionString[];
