@@ -1,5 +1,5 @@
 PODS:
-  - AFNNetworking (3.4.11):
+  - AFNNetworking (3.4.12):
     - SDWebImage
     - SVProgressHUD
   - SDWebImage (4.4.5):
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNNetworking: cac573ac21c7f36fea531fe266cfbf4e21c2da5e
+  AFNNetworking: 6bc8dbda93492e500dbd7279ae3282bd77ed37b8
   SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
 
