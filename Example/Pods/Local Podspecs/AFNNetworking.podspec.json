@@ -1,6 +1,6 @@
 {
   "name": "AFNNetworking",
-  "version": "3.4.13",
+  "version": "3.4.14",
   "summary": "A networking framework.",
   "description": "A delightful networking framework for iOS, macOS, watchOS, and tvOS. http://afnetworking.com",
   "homepage": "https://github.com/cuizhiyuan/AFNNetworking",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/cuizhiyuan/AFNNetworking.git",
-    "tag": "3.4.13"
+    "tag": "3.4.14"
   },
   "requires_arc": true,
   "platforms": {
@@ -24,7 +24,8 @@
   },
   "public_header_files": [
     "AFNNetworking/AFNNetworking/*.h",
-    "AFNNetworking/AFNNetworkingManager.framework/Headers/**"
+    "AFNNetworking/AFNNetworkingManager.framework/Headers/AFNetworkingManager.h",
+    "AFNNetworking/AFNNetworkingManager.framework/Headers/AFNNetworkingManager.h"
   ],
   "source_files": [
     "AFNNetworking/AFNNetworking/**",
